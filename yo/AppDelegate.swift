@@ -19,6 +19,7 @@
 
 import Cocoa
 
+@available(macOS 10.10, *)
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDelegate {
 
